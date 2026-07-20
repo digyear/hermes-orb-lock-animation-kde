@@ -3,7 +3,6 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
-import QtMultimedia
 import org.kde.kirigami 2.20 as Kirigami
 
 ColumnLayout {
@@ -27,18 +26,13 @@ ColumnLayout {
         radius: Kirigami.Units.smallSpacing
         clip: true
 
-        MediaPlayer {
-            id: previewPlayer
-            source: Qt.resolvedUrl("../assets/hermes-orb.webm")
-            videoOutput: previewOutput
-            loops: MediaPlayer.Infinite
-            Component.onCompleted: play()
-        }
-
-        VideoOutput {
-            id: previewOutput
+        AnimatedImage {
             anchors.centerIn: parent
-            fillMode: VideoOutput.PreserveAspectFit
+            source: Qt.resolvedUrl("../assets/hermes-orb.gif")
+            playing: preview.visible
+            cache: false
+            smooth: true
+            fillMode: Image.PreserveAspectFit
             width: Math.min(parent.width * 0.92, parent.height * 0.94 * 1284 / 1590)
             height: width * 1590 / 1284
         }

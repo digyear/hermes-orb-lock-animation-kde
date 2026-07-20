@@ -8,7 +8,7 @@
 - Source asset: <https://hermes-agent.nousresearch.com/img/desktop/portal-figure-orb.webm>
 - Retrieved: 2026-07-20
 
-The original 1284×1590 VP9 animation runs at 15 FPS for approximately 2.8 seconds. This adaptation composites it onto the official electric-blue visual style and preserves the loop as a self-contained WebM file.
+The original 1284×1590 VP9 animation runs at 15 FPS for approximately 2.8 seconds. This adaptation composites it onto the official electric-blue visual style, then packages it as a software-decoded animated image to avoid GPU video-decoder corruption on Plasma lock screens.
 
 ## Licensing note
 

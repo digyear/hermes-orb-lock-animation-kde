@@ -11,22 +11,20 @@ An unofficial KDE Plasma 6 animated wallpaper plugin based on the rotating orb i
 ## Features
 
 - faithful electric-blue and white Hermes website styling;
-- 1284×1590 VP9 animation at 15 FPS;
+- 1284×1590 software-decoded animation;
 - seamless 2.8-second loop;
 - self-contained package with no network requests after installation;
-- low package size and streaming playback through Qt Multimedia.
+- avoids GPU video-decoder artifacts by using Qt Quick `AnimatedImage` playback.
 
 ## Requirements
 
-- KDE Plasma 6.0 or later;
-- `qml6-module-qtmultimedia`;
-- a Qt Multimedia backend capable of decoding VP9/WebM.
+- KDE Plasma 6.0 or later.
 
 ## Install
 
 ```bash
 ./build.sh
-kpackagetool6 --type Plasma/Wallpaper --install dist/hermes-orb-animation-1.0.0.plasmoid
+kpackagetool6 --type Plasma/Wallpaper --install dist/hermes-orb-animation-1.0.1.plasmoid
 ```
 
 To select it directly for the lock screen:

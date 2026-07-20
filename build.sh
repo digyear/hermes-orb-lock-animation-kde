@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-VERSION="1.0.0"
+VERSION="1.0.1"
 OUT="$ROOT/dist/hermes-orb-animation-$VERSION.plasmoid"
 
 mkdir -p "$ROOT/dist"
