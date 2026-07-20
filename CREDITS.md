@@ -8,13 +8,11 @@
 - Source asset: <https://hermes-agent.nousresearch.com/img/desktop/portal-figure-orb.webm>
 - Retrieved: 2026-07-20
 
-The original 1284×1590 VP9 animation runs at 15 FPS for approximately 2.8 seconds. This adaptation composites it onto the official electric-blue visual style, then packages it as a software-decoded animated image to avoid GPU video-decoder corruption on Plasma lock screens.
+The original 1284×1590 VP9 animation runs at 15 FPS for approximately 2.8 seconds. This adaptation preserves the black background, scales the artwork to a compact lock-screen size, and packages it as a software-decoded animated image to avoid GPU video-decoder corruption.
 
-## Licensing note
+## Artwork permission
 
-The Hermes Agent software repository is published under the MIT License, and the official page presents Hermes Agent as open source and MIT-licensed. However, the website animation file was not found in the public repository tree during preparation, so the artwork's independent redistribution terms have not been conclusively established.
-
-This local package should not be publicly redistributed until Nous Research confirms that the website artwork may be redistributed under the MIT License or another compatible license.
+The Hermes website artwork is © Nous Research and is redistributed in this project with permission from Nous Research, as confirmed by the project maintainer. The permission applies to the bundled artwork; the Plasma integration code remains licensed separately under GPL-3.0-or-later.
 
 ## Plasma adaptation
 

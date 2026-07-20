@@ -49,6 +49,6 @@ kpackagetool6 --type Plasma/Wallpaper --remove io.github.digyear.hermesorb
 
 ## Source and licensing
 
-The Plasma integration code is GPL-3.0-or-later. The original animation is sourced from the official Hermes Agent website and attributed to Nous Research. See [`CREDITS.md`](CREDITS.md) for the artwork licensing caveat. This package should remain local until the animation's redistribution terms are confirmed.
+The Plasma integration code is GPL-3.0-or-later. The original animation is sourced from the official Hermes Agent website and attributed to Nous Research. The artwork is redistributed with permission from Nous Research; see [`CREDITS.md`](CREDITS.md) for attribution details.
 
 This is an unofficial community adaptation and is not an official Nous Research or KDE product.
