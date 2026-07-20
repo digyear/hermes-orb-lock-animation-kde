@@ -1,0 +1,20 @@
+{
+  "KPackageStructure": "Plasma/Wallpaper",
+  "KPlugin": {
+    "Id": "io.github.digyear.hermesorb",
+    "Name": "Hermes Orb Animation",
+    "Description": "The rotating Hermes orb illustration adapted as a Plasma 6 desktop and lock-screen wallpaper",
+    "Icon": "preferences-desktop-wallpaper",
+    "Authors": [
+      {
+        "Name": "digyear",
+        "Email": ""
+      }
+    ],
+    "Category": "Animated",
+    "License": "GPL-3.0-or-later",
+    "Version": "1.0.0",
+    "Website": "https://hermes-agent.nousresearch.com/"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

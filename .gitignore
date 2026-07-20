@@ -1,0 +1,5 @@
+dist/
+*.plasmoid
+.idea/
+*.iml
+source-assets/
