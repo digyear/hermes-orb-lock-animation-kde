@@ -22,7 +22,7 @@ ColumnLayout {
         id: preview
         Layout.fillWidth: true
         Layout.preferredHeight: Math.min(460, Math.max(260, width * 9 / 16))
-        color: "#0700fe"
+        color: "#000000"
         radius: Kirigami.Units.smallSpacing
         clip: true
 

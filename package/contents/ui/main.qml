@@ -9,7 +9,7 @@ WallpaperItem {
 
     Rectangle {
         anchors.fill: parent
-        color: "#0700fe"
+        color: "#000000"
 
         AnimatedImage {
             anchors.centerIn: parent
