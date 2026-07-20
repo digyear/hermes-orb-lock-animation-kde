@@ -33,8 +33,8 @@ ColumnLayout {
             cache: false
             smooth: true
             fillMode: Image.PreserveAspectFit
-            width: Math.min(parent.width * 0.92, parent.height * 0.94 * 1284 / 1590)
-            height: width * 1590 / 1284
+            height: Math.min(338, parent.height * 0.72)
+            width: height * 1284 / 1590
         }
 
         Rectangle {

@@ -11,7 +11,8 @@ An unofficial KDE Plasma 6 animated wallpaper plugin based on the rotating orb i
 ## Features
 
 - faithful electric-blue and white Hermes website styling;
-- 1284×1590 software-decoded animation;
+- the full illustration is displayed at a maximum height of 338 pixels, matching the combined Parrot + Hermes theme;
+- 1284×1590 software-decoded source animation;
 - seamless 2.8-second loop;
 - self-contained package with no network requests after installation;
 - avoids GPU video-decoder artifacts by using Qt Quick `AnimatedImage` playback.
@@ -24,7 +25,7 @@ An unofficial KDE Plasma 6 animated wallpaper plugin based on the rotating orb i
 
 ```bash
 ./build.sh
-kpackagetool6 --type Plasma/Wallpaper --install dist/hermes-orb-animation-1.0.1.plasmoid
+kpackagetool6 --type Plasma/Wallpaper --install dist/hermes-orb-animation-1.0.2.plasmoid
 ```
 
 To select it directly for the lock screen:
