@@ -21,6 +21,11 @@ An unofficial KDE Plasma 6 animated wallpaper plugin based on the rotating orb i
 
 - KDE Plasma 6.0 or later.
 
+## Download
+
+- [KDE Store](https://store.kde.org/p/2366161/)
+- [GitHub release v1.0.3](https://github.com/digyear/hermes-orb-lock-animation-kde/releases/tag/v1.0.3)
+
 ## Install
 
 ```bash
